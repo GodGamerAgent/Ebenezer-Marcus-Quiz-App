@@ -47,7 +47,7 @@ def main_page():
     st.markdown("---")
     st.markdown("<b style='font-size: 30px;'>Who is this?</b>", unsafe_allow_html=True)
 
-    st.page_link("pages/Student_Login.py", label="👨‍🎓 Student", icon="🎓", use_container_width=True)
-    st.page_link("pages/Teacher_Login.py", label="👩‍🏫 Teacher", icon="📘", use_container_width=True)
+    st.page_link("pages/student_Login.py", label="👨‍🎓 Student", icon="🎓", use_container_width=True)
+    st.page_link("pages/teacher_Login.py", label="👩‍🏫 Teacher", icon="📘", use_container_width=True)
 
 main_page()
